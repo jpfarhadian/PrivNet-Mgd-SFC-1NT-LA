@@ -1,0 +1,44 @@
+{
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": [
+                    "comment",
+                    "comment.block.documentation",
+                    "comment.block.documentation.js",
+                    "comment.line.double-slash.js",
+                    "storage.type.class.jsdoc",
+                    "entity.name.type.instance.jsdoc",
+                    "variable.other.jsdoc",
+                    "punctuation.definition.comment",
+                    "punctuation.definition.comment.begin.documentation",
+                    "punctuation.definition.comment.end.documentation"
+                ],
+                "settings": {
+                    "fontStyle": "italic",
+                    "foreground": "#8b7770",
+                }
+            }
+        ]
+    },
+    "workbench.colorCustomizations": {
+        "tab.inactiveForeground": "#ffffff",
+        "editor.lineHighlightBorder": "#2c2b2b",
+        "titleBar.activeBackground": "#256ac4",
+        "titleBar.border": "#414040",
+        "titleBar.activeForeground": "#ffffff",
+        "tab.activeBackground": "#4570a8",
+        "tab.inactiveBackground": "#2c2b2b",
+        "[Monokai Dimmed]": {
+            "activityBar.background": "#1d1d1d",
+            "activityBarBadge.background": "#256ac4",
+            "activityBar.activeBorder": "#ff0000",
+            "statusBar.background": "#2758df",
+            "sideBarSectionHeader.background": "#256ac4",
+            "sideBar.background": "#202020",
+            "sideBar.border": "#256ac4",
+            "list.activeSelectionBackground": "#3977c2"
+        }
+    },
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true
+}
